@@ -1,0 +1,99 @@
+@import 'mixins';
+@import 'variables';
+/* Boostrap Custom */
+@import 'bootstrap-custom';
+/* Font Awesome */
+@import 'node_modules/font-awesome/scss/font-awesome';
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+/* Global Stysheet */
+@import 'global';
+
+/* Body */
+body {
+    background: #FFFFFF;
+    background-image: url(/img/wedding-bg1.png);
+}
+.page {
+    max-width: 1300px;
+    min-height: 300px;
+}
+
+/* Nav */
+.page-header h1 {
+    @media (min-width: $screen-sm-min) {
+        font-size: 60px;
+    }
+}
+.navbar {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    min-height: 42px;
+    border: 0;
+    .nav.navbar-nav {
+        font-weight: 500;
+        font-size: 18px;
+        a {
+            color: $lightorchid;
+            &:hover {
+                background: $lightorchid;
+                color: #FFF;
+            }
+        }
+        li.active {
+            background: $lightorchid;
+            a {
+                color: #FFF;
+            }
+        }
+    }
+}
+.header-img {
+    /*background: url(/img/engagement-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 250px;*/
+    max-width: 700px;
+    @include shadow-3();
+    border: 5px solid #FFF;
+    border-top: 0;
+    margin: 0 auto 20px auto;
+}
+
+/* Color Swatches */
+.color-swatch {
+    height: 100px;
+    @include shadow-3();
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 5px solid #FFF;
+    color: #FFF;
+    background-color: #eee;
+    &.swatch1 {
+        background-color: $lightorchid;
+    }
+    &.swatch2 {
+        background-color: $hopbush;
+    }
+    &.swatch3 {
+        background-color: $venus;
+    }
+    &.swatch4 {
+        background-color: $silver;
+    }
+    &.swatch5 {
+        background-color: $scorpion;
+    }
+    &.swatch6 {
+        background-color: $lily;
+    }
+}
+.details {
+    color: $gray-light;
+}
+
+

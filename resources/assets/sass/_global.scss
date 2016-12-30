@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-weight: $light;
+}
+h1, .h1 {
+    font-family: 'Great Vibes', cursive;
+}
+h2, .h2 {
+    font-weight: 500;
+}
+h3, .h3 {
+    font-weight: $regular;
+}
+hr {
+    background-color: $lily;
+}
+.fancy {
+    font-family: 'Great Vibes', cursive;
+    display: inline-block;
+    margin-right: 2px;
+}
+a.hover {
+    color: $link-hover-color;
+}
+/* Spacing Elements */
+@mixin generate-spacing-classes(
+    $default-space-amounts-with-direction: (0 left left, 5 left left, 10 left left, 15 left left, 20 left left, 25 left left, 30 left left)
+) {
+    @each $space in $default-space-amounts-with-direction {
+        .margin-#{nth($space, 3)}-#{nth($space, 1)} {
+            margin-#{nth($space, 2)}: #{nth($space, 1)}px;
+        }
+    }
+}
+$right-space-vars: (0 right right, 5 right right, 10 right right, 15 right right, 20 right right, 25 right right, 30 right right);
+$bottom-space-vars: (0 bottom bottom, 5 bottom bottom, 10 bottom bottom, 15 bottom bottom, 20 bottom bottom, 25 bottom bottom, 30 bottom bottom);
+$top-space-vars: (0 top top, 5 top top, 10 top top, 15 top top, 20 top top, 25 top top, 30 top top);
+@include generate-spacing-classes(); // left comes by default
+@include generate-spacing-classes($right-space-vars);
+@include generate-spacing-classes($bottom-space-vars);
+@include generate-spacing-classes($top-space-vars);
+
+/* Buttons */
+.btn {
+    font-weight: $light;
+}
+.btn-hopbush {
+    background-color: $hopbush;
+    color: #FFF;
+    border: 1px solid #FFF;
+    @include shadow-1();
+    &:hover, &:focus {
+        background-color: darken($hopbush,15%);
+        color: #FFF;
+    }
+}
+.btn-venus {
+    background-color: $venus;
+    color: #FFF;
+    border: 1px solid #FFF;
+    @include shadow-1();
+    &:hover, &:focus {
+        background-color: $scorpion;
+        color: #FFF;
+    }
+}
+
+/* Footer */
+.footer {
+    color: $scorpion;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+    p {
+        margin-bottom: 1px;
+    }
+}

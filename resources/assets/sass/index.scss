@@ -1,0 +1,40 @@
+@import 'mixins';
+@import 'variables';
+/* Boostrap Custom */
+@import 'bootstrap-custom';
+/* Font Awesome */
+@import 'node_modules/font-awesome/scss/font-awesome';
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+/* Global Stysheet */
+@import 'global';
+
+body.homepage {
+    font-size: 18px;
+    .full-height {
+        height: 100vh;
+    }
+    .flex-center {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .position-ref {
+        position: relative;
+    }
+    .content {
+        text-align: center;
+    }
+    p {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    .passcode-container {
+        margin-top: 25px;
+        /*border: 1px solid $black;
+        padding: 15px;*/
+    }
+}
