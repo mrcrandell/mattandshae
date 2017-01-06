@@ -1,3 +1,4 @@
+    </div> <!-- /.content -->
 </div> <!-- /.conatiner-fluid.page -->
 <footer class="footer">
     <p>Copyright &copy; {{date('Y')}} Matt &amp; Shae. All Rights Reserved.</p>

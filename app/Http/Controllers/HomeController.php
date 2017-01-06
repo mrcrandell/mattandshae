@@ -38,8 +38,20 @@ class HomeController extends Controller
     {
         if ($request->session()->has('loggedin')) {
             $view = view('home.our-wedding');
-            $view->active_page = 'home';
+            $view->active_page = 'our-wedding';
             $view->title = 'Welcome';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
+    }
+
+    public function getFaq(Request $request)
+    {
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.faq');
+            $view->active_page = 'faq';
+            $view->title = 'FAQ';
             return $view;
         } else {
             return redirect('/')->with('errors', 'You are not logged in.');
@@ -50,7 +62,7 @@ class HomeController extends Controller
     {
         if ($request->session()->has('loggedin')) {
             $view = view('style');
-            $view->active_page = 'home';
+            $view->active_page = 'style-guide';
             $view->title = 'Style Guide';
             return $view;
         } else {

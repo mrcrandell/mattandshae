@@ -15,4 +15,5 @@ Route::get('/', 'HomeController@getIndex');
 Route::post('/', 'HomeController@postIndex');
 Route::get('/logout', 'HomeController@getLogout');
 Route::get('/our-wedding', 'HomeController@getOurWedding');
+Route::get('/faq', 'HomeController@getFaq');
 Route::get('/style-guide', 'HomeController@getStyleGuide');
