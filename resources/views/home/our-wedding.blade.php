@@ -5,11 +5,22 @@
 
 @section('content')
 
-<h1>Our Wedding</h1>
+<h1>Our Wedding Day</h1>
 
 <div class="row">
     <div class="col-sm-6">
-        <p>May 19, 2018 4:00 PM</p>
+        <h2>May 19, 2018</h2>
+        <address><strong>The Cheney Place</strong><br>
+            1600 Monroe Ave NW, Grand Rapids, MI 49505</address>
+        <dl class="dl-horizontal">
+            <dt>Ceremony</dt>
+            <dd>4:00PM <br><small>(Please arrive by 3:45PM)</small></dd>
+            <dt>Cocktail Hour</dt>
+            <dd>4:30PM to 5:30PM</dd>
+            <dt>Reception</dt>
+            <dd>5:30PM to 10:30PM</dd>
+        </dl>
+        <!--<p>May 19, 2018 4:00 PM</p>
         <address><strong>The Cheney Place</strong><br>
             1600 Monroe Ave NW, Grand Rapids, MI 49505</address>
         <h2>Ceremony</h2>
@@ -17,7 +28,7 @@
         <h2>Cocktail Hour</h2>
         <p>4:30 PM to 5:30 PM</p>
         <h2>Reception</h2>
-        <p>5:30 PM to 10:30 PM</p>
+        <p>5:30 PM to 10:30 PM</p>-->
 
         <h2>Other Information</h2>
         <ol>
