@@ -19,7 +19,17 @@
 <hr>
 
 <p class="title">I forgot to mail in my RSVP, can I still attend?</p>
-<p>RSVP is required by March 1, 2018. There is a strict guest count needed for the vendors.</p>
+<p>RSVP is required by April 27, 2018 via formal invite. There is a strict guest count needed for the vendors.</p>
+
+<hr>
+
+<p class="title">Can I RSVP via the website?</p>
+<p>RSVP is required by April 27, 2018 via formal invite. Invitations will be sent out around February/March</p>
+
+<hr>
+
+<p class="title">Are kids invited?</p>
+<p>Please respect our wishes for a child free reception</p>
 
 </div>
 

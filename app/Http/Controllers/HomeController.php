@@ -46,6 +46,18 @@ class HomeController extends Controller
         }
     }
 
+    public function getPhotos(Request $request)
+    {
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.photos');
+            $view->active_page = 'photos';
+            $view->title = 'Photos';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
+    }
+
     public function getFaq(Request $request)
     {
         if ($request->session()->has('loggedin')) {

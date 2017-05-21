@@ -14,11 +14,11 @@
             1600 Monroe Ave NW, Grand Rapids, MI 49505</address>
         <dl class="dl-horizontal">
             <dt>Ceremony</dt>
-            <dd>4:00PM <br><small>(Please arrive by 3:45PM)</small></dd>
+            <dd>4:30PM <br><small>(Please arrive by 4:15PM)</small></dd>
             <dt>Cocktail Hour</dt>
-            <dd>4:30PM to 5:30PM</dd>
+            <dd>5:00PM to 6:00PM</dd>
             <dt>Reception</dt>
-            <dd>5:30PM to 10:30PM</dd>
+            <dd>6:00PM to 11:30PM</dd>
         </dl>
         <!--<p>May 19, 2018 4:00 PM</p>
         <address><strong>The Cheney Place</strong><br>
@@ -30,11 +30,10 @@
         <h2>Reception</h2>
         <p>5:30 PM to 10:30 PM</p>-->
 
-        <h2>Other Information</h2>
+        <h2>Additional Information</h2>
         <ol>
-            <li>Parking is available at the venue. Other options: You can walk or take a taxi/Uber/Lyft from your hotel to the venue.</li>
+            <li>Parking is available at the venue. Other options: Taxi/Uber/Lyft from your hotel to the venue.</li>
             <li>Formal attire</li>
-            <li>RSVP is required by March 1, 2018</li>
         </ol>
     </div>
     <div class="col-sm-6">

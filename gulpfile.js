@@ -27,11 +27,15 @@ elixir((mix) => {
     mix.copy('node_modules/jquery/dist/jquery.min.js', 'resources/assets/js/jquery');
     // Copy Bootstrap's JS
     mix.copy('node_modules/bootstrap-sass/assets/javascripts/bootstrap.js', 'resources/assets/js/bootstrap');
+    // Copy Lightbox's JS
+    mix.copy('node_modules/drmonty-ekko-lightbox/js/ekko-lightbox.js', 'resources/assets/js/drmonty-ekko-lightbox');
+    mix.copy('node_modules/drmonty-ekko-lightbox/js/ekko-lightbox.min.js', 'public/js/drmonty-ekko-lightbox');
     // Build JS
     mix.scripts(
         [
             'jquery/jquery.min.js',
             'bootstrap/bootstrap.js',
+            //'drmonty-ekko-lightbox.js',
             'default.js'
         ],
         'public/js/default.js'
