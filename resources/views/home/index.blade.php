@@ -9,6 +9,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <link rel="stylesheet" type="text/css" href="{{ elixir('css/index.css') }}" />
+
+        <meta name="robots" content="noindex,nofollow">
     </head>
     <body class="homepage">
 
