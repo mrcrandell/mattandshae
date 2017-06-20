@@ -48,14 +48,10 @@ class HomeController extends Controller
 
     public function getPhotos(Request $request)
     {
-        if ($request->session()->has('loggedin')) {
-            $view = view('home.photos');
-            $view->active_page = 'photos';
-            $view->title = 'Photos';
-            return $view;
-        } else {
-            return redirect('/')->with('errors', 'You are not logged in.');
-        }
+        $view = view('home.photos');
+        $view->active_page = 'photos';
+        $view->title = 'Photos';
+        return $view;
     }
 
     public function getFaq(Request $request)
@@ -70,15 +66,19 @@ class HomeController extends Controller
         }
     }
 
+    public function getAccommodations()
+    {
+        $view = view('home.accommodations');
+        $view->active_page = 'accommodations';
+        $view->title = 'Accommodations';
+        return $view;
+    }
+
     public function getStyleGuide(Request $request)
     {
-        if ($request->session()->has('loggedin')) {
-            $view = view('style');
-            $view->active_page = 'style-guide';
-            $view->title = 'Style Guide';
-            return $view;
-        } else {
-            return redirect('/')->with('errors', 'You are not logged in.');
-        }
+        $view = view('style');
+        $view->active_page = 'style-guide';
+        $view->title = 'Style Guide';
+        return $view;
     }
 }

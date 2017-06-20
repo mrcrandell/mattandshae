@@ -17,4 +17,5 @@ Route::get('/logout', 'HomeController@getLogout');
 Route::get('/our-wedding', 'HomeController@getOurWedding');
 Route::get('/photos', 'HomeController@getPhotos');
 Route::get('/faq', 'HomeController@getFaq');
+Route::get('/accommodations', 'HomeController@getAccommodations');
 Route::get('/style-guide', 'HomeController@getStyleGuide');

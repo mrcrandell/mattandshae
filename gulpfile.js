@@ -30,6 +30,8 @@ elixir((mix) => {
     // Copy Lightbox's JS
     mix.copy('node_modules/drmonty-ekko-lightbox/js/ekko-lightbox.js', 'resources/assets/js/drmonty-ekko-lightbox');
     mix.copy('node_modules/drmonty-ekko-lightbox/js/ekko-lightbox.min.js', 'public/js/drmonty-ekko-lightbox');
+    // Copy Font Awesome Markers
+    mix.copy('node_modules/fontawesome-markers/fontawesome-markers.min.js', 'public/js/fontawesome-markers');
     // Build JS
     mix.scripts(
         [
