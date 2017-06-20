@@ -14,7 +14,7 @@
                 <ul class="nav navbar-nav">
                     <li class="{{(isset($active_page)) && $active_page=='our-wedding'?'active':''}}"><a href="{{url('/our-wedding')}}">Our Wedding</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='photos'?'active':''}}"><a href="{{url('/photos')}}">Photos</a></li>
-                    <li class="{{(isset($active_page)) && $active_page=='hotel'?'active':''}}"><a href="#">Accommodations</a></li>
+                    <li class="{{(isset($active_page)) && $active_page=='accommodations'?'active':''}}"><a href="{{url('/accommodations')}}">Accommodations</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='faq'?'active':''}}"><a href="{{url('/faq')}}">FAQ</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='registry'?'active':''}}"><a href="#">Registry</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='contact'?'active':''}}"><a href="#">Contact Us</a></li>
