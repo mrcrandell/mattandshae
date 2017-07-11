@@ -19,7 +19,6 @@
             <li>Check-in at 3pm. Check-out at 12pm</li>
             <li>King - $174 /night, 2 Queens - $169 /night</li>
             <li>$8 Parking</li>
-            <li>Free breakfast</li>
         </ul>
         <p><a href="https://secure3.hilton.com/en_US/hp/reservation/book.htm?inputModule=HOTEL&ctyhocn=GRRDTHX&spec_plan=CHHHCW&arrival=20180518&departure=20180520&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT" target="_blank">Make a reservation online</a> or call at <a href="tel:16164562000">616-456-2000</a> and reference the <span style="white-space: nowrap;">"Heusinkveld-Crandell Wedding"</span> or group code "HCW" to obtain the discounted rate.</p>
 
@@ -38,9 +37,6 @@
             <li>$24 self-parking, $29 for valet</li>
         </ul>
         <p><a href="https://aws.passkey.com/e/49090679" target="_blank">Make a reservation online</a> or call at  <a href="tel:18779016632">877-901-6632</a> and reference the <span style="white-space: nowrap;">"Heusinkveld-Crandell Wedding"</span>.</p>
-
-        <h2>Holiday Inn Downtown</h2>
-        <p>More information coming soon</p>
 
     </div>
 
@@ -181,7 +177,7 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                 place.formatted_address + '<br>'+
-                '<a href="'+place.url+'" target="_blank">View on Goole Maps</a>'+'</div>');
+                '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
                 infowindow.open(map, this);
         });
         }
@@ -211,7 +207,7 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                 place.formatted_address + '<br>'+
-                '<a href="'+place.url+'" target="_blank">View on Goole Maps</a>'+'</div>');
+                '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
                 infowindow.open(map, this);
         });
         }
@@ -241,7 +237,7 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                 place.formatted_address + '<br>'+
-                '<a href="'+place.url+'" target="_blank">View on Goole Maps</a>'+'</div>');
+                '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
                 infowindow.open(map, this);
         });
         }
@@ -271,14 +267,14 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                 place.formatted_address + '<br>'+
-                '<a href="'+place.url+'" target="_blank">View on Goole Maps</a>'+'</div>');
+                '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
                 infowindow.open(map, this);
         });
         }
     });
 
     // Add Holiday Inn
-    var infowindow = new google.maps.InfoWindow();
+    /*var infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
     service.getDetails({
         placeId: 'ChIJTT-nZNqtGYgR8fhFQ0J3J1g'
@@ -301,11 +297,11 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                 place.formatted_address + '<br>'+
-                '<a href="'+place.url+'" target="_blank">View on Goole Maps</a>'+'</div>');
+                '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
                 infowindow.open(map, this);
         });
         }
-    });
+    });*/
 
     // Recenter the Map
     //var markers = $('#map').map('get','markers');

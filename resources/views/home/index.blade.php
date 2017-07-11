@@ -29,7 +29,7 @@
 
                 <p>More information coming soon.</p>
 
-                <!--<div class="row">
+                <div class="row">
                     <div class="col-xs-offset-1 col-xs-10 col-sm-6 col-sm-offset-3">
                         <div class="passcode-container">
                             @if (session('errors'))
@@ -47,7 +47,7 @@
                             </form>
                         </div>
                     </div>
-                </div>-->
+                </div>
 
             </div>
         </div>
