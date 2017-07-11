@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 use App\Http\Controllers\Controller;
+use App\Mail\Contact;
+use Validator;
 
 class HomeController extends Controller
 {
@@ -72,6 +74,36 @@ class HomeController extends Controller
         $view->active_page = 'accommodations';
         $view->title = 'Accommodations';
         return $view;
+    }
+
+    public function getContact()
+    {
+        $view = view('home.contact');
+        $view->active_page = 'contact';
+        $view->title = 'Contact';
+        return $view;
+    }
+
+    public function postContact(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+                'name' => 'required',
+                'email' => 'required|email',
+                'message_text' => 'required',            ],
+            [
+                'name.required' => 'Please enter your name.',
+                'email.required' => 'Please enter your email address.',
+                'email.email' => 'Please enter a valid email address.',
+                'message_text.required' => 'What? You Don\'t Want to Say Something?',
+            ]
+        );
+        if ($validator->fails()) {
+            return redirect('/contact')
+                ->withErrors($validator)
+                ->withInput();
+        }
+        Mail::to('matt@crandelldesign.com')->send(new Contact($request));
+        return redirect('/contact')->with('status', 'Thank you for contacting us, we will get back to you as soon as possible.');
     }
 
     public function getStyleGuide(Request $request)
