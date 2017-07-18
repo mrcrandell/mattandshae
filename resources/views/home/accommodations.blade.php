@@ -171,6 +171,7 @@ function initMap() {
                     strokeOpacity: 1,
                     fillColor: '#c0408b',
                     fillOpacity: 1,
+                    anchor: new google.maps.Point(30.25, -5)
                 },
             });
             markers.push(marker);

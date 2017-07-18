@@ -39,7 +39,7 @@
 <hr>
 
 <p class="title">Are there events Friday?</p>
-<p>We will not be having any rehearsal Friday; however, if you're in town we will be out if you'd like to meet up:)</p>
+<p>We will not be having any rehearsal Friday; however, if you're in town we will be out if you'd like to meet up :)</p>
 
 <hr>
 

@@ -16,9 +16,9 @@
                     <li class="{{(isset($active_page)) && $active_page=='photos'?'active':''}}"><a href="{{url('/photos')}}">Photos</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='accommodations'?'active':''}}"><a href="{{url('/accommodations')}}">Accommodations</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='faq'?'active':''}}"><a href="{{url('/faq')}}">FAQ</a></li>
-                    <li class="{{(isset($active_page)) && $active_page=='registry'?'active':''}}"><a href="#">Registry</a></li>
+                    <li class="{{(isset($active_page)) && $active_page=='registry'?'active':''}}"><a href="{{url('/registry')}}">Registry</a></li>
                     <li class="{{(isset($active_page)) && $active_page=='contact'?'active':''}}"><a href="{{url('/contact')}}">Contact Us</a></li>
-                    <li class="{{(isset($active_page)) && $active_page=='nearby'?'active':''}}"><a href="#">Nearby Attractions</a></li>
+                    <li class="{{(isset($active_page)) && $active_page=='nearby'?'active':''}}"><a href="{{url('/nearby')}}">Nearby Attractions</a></li>
                     @if(App::environment('local'))
                     <li class="{{(isset($active_page)) && $active_page=='style-guide'?'active':''}}"><a href="{{url('/style-guide')}}">Style Guide</a></li>
                     @endif

@@ -50,10 +50,14 @@ class HomeController extends Controller
 
     public function getPhotos(Request $request)
     {
-        $view = view('home.photos');
-        $view->active_page = 'photos';
-        $view->title = 'Photos';
-        return $view;
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.photos');
+            $view->active_page = 'photos';
+            $view->title = 'Photos';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
     }
 
     public function getFaq(Request $request)
@@ -68,20 +72,40 @@ class HomeController extends Controller
         }
     }
 
-    public function getAccommodations()
+    public function getAccommodations(Request $request)
     {
-        $view = view('home.accommodations');
-        $view->active_page = 'accommodations';
-        $view->title = 'Accommodations';
-        return $view;
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.accommodations');
+            $view->active_page = 'accommodations';
+            $view->title = 'Accommodations';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
     }
 
-    public function getContact()
+    public function getRegistry(Request $request)
     {
-        $view = view('home.contact');
-        $view->active_page = 'contact';
-        $view->title = 'Contact';
-        return $view;
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.registry');
+            $view->active_page = 'registry';
+            $view->title = 'Registry';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
+    }
+
+    public function getContact(Request $request)
+    {
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.contact');
+            $view->active_page = 'contact';
+            $view->title = 'Contact';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
     }
 
     public function postContact(Request $request)
@@ -104,6 +128,18 @@ class HomeController extends Controller
         }
         Mail::to('matt@crandelldesign.com')->send(new Contact($request));
         return redirect('/contact')->with('status', 'Thank you for contacting us, we will get back to you as soon as possible.');
+    }
+
+    public function getNearby(Request $request)
+    {
+        if ($request->session()->has('loggedin')) {
+            $view = view('home.nearby');
+            $view->active_page = 'nearby';
+            $view->title = 'Nearby Attractions';
+            return $view;
+        } else {
+            return redirect('/')->with('errors', 'You are not logged in.');
+        }
     }
 
     public function getStyleGuide(Request $request)
