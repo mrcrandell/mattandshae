@@ -5378,7 +5378,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   clear: both;
 }
 
-.center-block {
+.center-block, .photo-gallery a img {
   display: block;
   margin-left: auto;
   margin-right: auto;

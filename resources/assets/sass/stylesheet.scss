@@ -175,6 +175,9 @@ body {
     a {
         display: block;
         position: relative;
+        img {
+            @extend .center-block;
+        }
     }
 }
 .masonry {
