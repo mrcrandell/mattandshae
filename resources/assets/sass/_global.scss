@@ -65,6 +65,12 @@ $top-space-vars: (0 top top, 5 top top, 10 top top, 15 top top, 20 top top, 25 t
         color: #FFF;
     }
 }
+.btn-black {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
 
 /* Footer */
 .footer {

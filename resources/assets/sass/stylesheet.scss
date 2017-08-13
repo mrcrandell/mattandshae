@@ -213,5 +213,15 @@ body {
     }
 }
 
-// Hotels
+// Registry
+.bbb-registry {
+    display: block;
+    background-color: #FFF;
+    padding: 20px 30px;
+    .logo {
+        @extend .center-block;
+        max-width: 405px;
+        margin-bottom: 20px;
+    }
+}
 

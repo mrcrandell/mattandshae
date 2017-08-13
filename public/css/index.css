@@ -8892,6 +8892,13 @@ a.hover {
   color: #FFF;
 }
 
+.btn-black {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 /* Footer */
 .footer {
   color: #6e6c6d;

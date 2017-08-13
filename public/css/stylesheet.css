@@ -5378,7 +5378,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   clear: both;
 }
 
-.center-block, .photo-gallery a img {
+.center-block, .photo-gallery a img, .bbb-registry .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -8892,6 +8892,13 @@ a.hover {
   color: #FFF;
 }
 
+.btn-black {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 /* Footer */
 .footer {
   color: #6e6c6d;
@@ -9288,6 +9295,17 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bbb-registry {
+  display: block;
+  background-color: #FFF;
+  padding: 20px 30px;
+}
+
+.bbb-registry .logo {
+  max-width: 405px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

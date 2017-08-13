@@ -33,6 +33,4 @@
 <meta name="msapplication-TileImage" content="{{url('/')}}/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">-->
 
-<meta name="robots" content="noindex,nofollow">
-
 @yield('head')
