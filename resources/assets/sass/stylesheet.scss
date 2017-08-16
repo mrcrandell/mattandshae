@@ -160,15 +160,8 @@ body {
 
 /* Page Specific Styling */
 
-/* FAQ */
-.faq-list {
-    p {
-        margin-bottom: 5px;
-        &.title {
-            font-weight: 500;
-        }
-    }
-}
+/* FAQ / Nearby */
+@import 'pages/faq-nearby';
 
 /* Photo Gallery */
 .photo-gallery {

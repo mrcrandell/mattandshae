@@ -1,0 +1,9 @@
+// FAQ / Nearby Lists
+.faq-list, .nearby-list {
+    p, address {
+        margin-bottom: 5px;
+        &.title {
+            font-weight: 500;
+        }
+    }
+}

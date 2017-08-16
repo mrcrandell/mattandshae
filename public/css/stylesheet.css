@@ -8917,6 +8917,10 @@ a.hover {
   height: 400px;
 }
 
+#map.map-xl {
+  height: 500px;
+}
+
 /* Boostrap Custom */
 .ekko-lightbox-container {
   position: relative;
@@ -9240,12 +9244,12 @@ body {
 }
 
 /* Page Specific Styling */
-/* FAQ */
-.faq-list p {
+/* FAQ / Nearby */
+.faq-list p, .faq-list address, .nearby-list p, .nearby-list address {
   margin-bottom: 5px;
 }
 
-.faq-list p.title {
+.faq-list p.title, .faq-list address.title, .nearby-list p.title, .nearby-list address.title {
   font-weight: 500;
 }
 

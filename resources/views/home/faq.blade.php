@@ -14,7 +14,7 @@
 <hr>
 
 <p class="title">What should I wear?</p>
-<p>The event is formal attire. (i.e. suits and dresses)</p>
+<p>The preferred attire is formal wear. (i.e. suits and dresses)</p>
 
 <hr>
 
