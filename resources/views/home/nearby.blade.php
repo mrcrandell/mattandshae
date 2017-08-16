@@ -191,25 +191,6 @@ function initMap() {
         });
     }
 
-    google.maps.event.addListener(map,'idle',function(){
-      if(!this.get('dragging') && this.get('oldCenter') && this.get('oldCenter')!==this.getCenter()) {
-        console.log(map.getCenter());
-      }
-      if(!this.get('dragging')){
-       this.set('oldCenter',this.getCenter())
-      }
-
-    });
-
-    google.maps.event.addListener(map,'dragstart',function(){
-      this.set('dragging',true);
-    });
-
-    google.maps.event.addListener(map,'dragend',function(){
-      this.set('dragging',false);
-      google.maps.event.trigger(this,'idle',{});
-    });
-
 }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGRTQumIwL6YYlYfT5Anqzkl6lrYa2bJw&libraries=places&callback=initMap"></script>
