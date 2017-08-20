@@ -40,6 +40,11 @@
             </address>
             <hr>
             <address>
+                <strong class="name">Long Road Distillers</strong><br>
+                537 Leonard St NW, Grand Rapids, MI 49504
+            </address>
+            <hr>
+            <address>
                 <strong class="name">RiverTown Crossings</strong><br>
                 3700 Rivertown Pkwy, Grandville, MI 49418
             </address>
@@ -156,7 +161,7 @@ function initMap() {
     var markers = [];
 
     // Array of Place IDs
-    var place_ids = ['ChIJXbFwwsStGYgRi_btOtiq5N0','ChIJud9NGqGtGYgRhD3CJgXBPGY','ChIJ19JZuMKtGYgRzsDAb6Wmhzc','ChIJufxEnSNTGIgR1eef5E7f5V4','ChIJ1QytC8StGYgRb3V7nliYuX4','ChIJM1vB4qKwGYgRhGzqRHqizJs'];
+    var place_ids = ['ChIJXbFwwsStGYgRi_btOtiq5N0','ChIJud9NGqGtGYgRhD3CJgXBPGY','ChIJ19JZuMKtGYgRzsDAb6Wmhzc','ChIJufxEnSNTGIgR1eef5E7f5V4','ChIJ1QytC8StGYgRb3V7nliYuX4','ChIJR3aB8SisGYgRnVtxkH8xBdo','ChIJM1vB4qKwGYgRhGzqRHqizJs',];
 
     // Loop through Place IDs and add markers/info windows to Map
     for (var i = place_ids.length - 1; i >= 0; i--) {
