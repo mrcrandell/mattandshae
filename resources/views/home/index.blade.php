@@ -31,7 +31,7 @@
                 <h1>Matthew &amp; ShaeLee</h1>
 
                 <?php
-                    $date = strtotime("May 19, 2018 4:00 PM");
+                    $date = strtotime("May 19, 2018 4:30 PM");
                     $remaining = $date - time();
                     $days_remaining = floor($remaining / 86400);
                     $hours_remaining = floor(($remaining % 86400) / 3600);
