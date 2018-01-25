@@ -9,7 +9,7 @@
 
 <div class="faq-list">
 <p class="title">Is there parking at the venue?</p>
-<p>Parking is available at the venue. Other options: You can walk or take a taxi/Uber/Lyft from your hotel to the venue.</p>
+<p>Parking is available at the venue. Other options: taxi/Uber/Lyft from your hotel to the venue.</p>
 
 <hr>
 
