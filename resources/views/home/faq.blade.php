@@ -14,7 +14,12 @@
 <hr>
 
 <p class="title">What should I wear?</p>
-<p>The preferred attire is formal wear. (i.e. suits and dresses)</p>
+<p>Appropriate wedding attire (i.e. suits and dresses).</p>
+
+<hr>
+
+<p class="title">Should I bring the gift to the venue?</p>
+<p>Due to travel and space in cars, we would appreciate gifts to be sent to the house. However, if you wish to bring a gift to the venue, it is OK.</p>
 
 <hr>
 
@@ -24,17 +29,17 @@
 <hr>
 
 <p class="title">Can I RSVP via the website?</p>
-<p>RSVP is required by April 20, 2018 via formal invite. Invitations will be sent out around February/March</p>
+<p>RSVP is required by April 20, 2018 via formal invite. Invitations will be sent out around February/March.</p>
 
 <hr>
 
 <p class="title">Are kids invited?</p>
-<p>Please respect our wishes for a child free reception</p>
+<p>Please respect our wishes for a child free reception.</p>
 
 <hr>
 
 <p class="title">Will there be a cocktail hour?</p>
-<p>Yes, there will be a cocktail hour after the ceremony at The Cheney Place</p>
+<p>Yes, there will be a cocktail hour after the ceremony at The Cheney Place.</p>
 
 <hr>
 
@@ -44,7 +49,7 @@
 <hr>
 
 <p class="title">Are there events Sunday?</p>
-<p>Unfortunately we will not be having any events on Sunday</p>
+<p>Unfortunately we will not be having any events on Sunday.</p>
 
 </div>
 
