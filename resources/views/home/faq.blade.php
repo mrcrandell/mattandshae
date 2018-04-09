@@ -43,11 +43,6 @@
 
 <hr>
 
-<p class="title">Are there events Friday?</p>
-<p>We will not be having any rehearsal Friday.</p>
-
-<hr>
-
 <p class="title">Are there events Sunday?</p>
 <p>Unfortunately we will not be having any events on Sunday.</p>
 
