@@ -13,8 +13,8 @@
 
 <hr>
 
-p class="title">Who should I contact the day of the wedding for questions?</p>
-<p>Ali Colgan (248) 941-5300.</p>
+<p class="title">Who should I contact the day of the wedding for questions?</p>
+<p>Ali Colgan <a href="tel:+12489415300">(248) 941-5300</a>.</p>
 
 <hr>
 
