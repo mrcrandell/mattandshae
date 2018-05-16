@@ -13,23 +13,13 @@
 
 <hr>
 
+p class="title">Who should I contact the day of the wedding for questions?</p>
+<p>Ali Colgan (248) 941-5300.</p>
+
+<hr>
+
 <p class="title">What should I wear?</p>
 <p>Appropriate wedding attire (i.e. suits and dresses).</p>
-
-<hr>
-
-<p class="title">Should I bring the gift to the venue?</p>
-<p>Due to travel and space in cars, we would appreciate gifts to be sent to the house. However, if you wish to bring a gift to the venue, it is OK.</p>
-
-<hr>
-
-<p class="title">I forgot to mail in my RSVP, can I still attend?</p>
-<p>RSVP is required by April 20, 2018 via formal invite. There is a strict guest count needed for the vendors.</p>
-
-<hr>
-
-<p class="title">Can I RSVP via the website?</p>
-<p>RSVP is required by April 20, 2018 via formal invite. Invitations will be sent out around February/March.</p>
 
 <hr>
 
